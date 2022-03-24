@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello Welcom to Daruma{} !*
+*Hello {} !*
 ✪ I'm an Daruma management bot [✨](https://telegra.ph/file/3c77d214c36960b9347f0.jpg)
 ────────────────────────
 × *Uptime:* `{}`
@@ -382,7 +382,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/kennedy-ex/EmikoRobot"),
+                    InlineKeyboardButton(text="Source Code", url="https://github.com/Iskandar-dar/EmikoRobot"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
@@ -441,8 +441,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/emikosupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/KennedyProject"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/Dsupportt"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/somedku"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
